@@ -1,0 +1,247 @@
+.formlogin {
+    border: solid lightgray 2px;
+    width: 1142px;
+    border-radius: 5px;
+    box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info1 {
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+    color: #fff;
+    padding: 35px;
+    font-family: 'Lily', cursive;
+}
+
+.info2 {
+    padding: 35px;
+    font-family: 'Lily', cursive;
+    background-color: white;
+}
+
+.title {
+    /* Chọn font chữ */
+    text-align: center;
+}
+
+.author {
+    text-decoration: underline;
+    font-size: small;
+    color: white;
+}
+
+.author:hover {
+    color: #C51098;
+}
+
+.formdangky {
+    padding-left: 50px;
+}
+
+.titledangky {
+    text-align: left;
+}
+
+.descriptiondangky {
+    color: gray;
+}
+
+#lastname {
+    margin-top: 10px;
+    width: 90%;
+}
+
+.dausao {
+    color: red;
+}
+
+#email {
+    margin-top: 10px;
+    width: 90%;
+}
+
+#firstname {
+    margin-top: 10px;
+    width: 90%;
+}
+
+#pass {
+    margin-top: 10px;
+    width: 90%;
+}
+
+label {
+    margin-top: 10px;
+}
+
+
+/* Ô nhập liệu */
+.styled-input {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    /* Đường viền mỏng */
+    border-radius: 5px;
+    /* Bo góc nhẹ */
+    background-color: #fff;
+    /* Nền trắng */
+    color: #333;
+    /* Màu chữ */
+    outline: none;
+    /* Xóa đường viền mặc định khi click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Hiệu ứng bóng nhẹ */
+    transition: all 0.3s ease;
+    /* Hiệu ứng chuyển động */
+}
+
+/* Khi di chuột vào */
+.styled-input:hover {
+    border-color: #aaa;
+    /* Đổi màu viền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    /* Tăng bóng */
+}
+
+/* Khi click vào ô */
+.styled-input:focus {
+    border-color: #007bff;
+    /* Màu xanh nhạt */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.25);
+    /* Hiệu ứng focus */
+}
+
+/* Placeholder */
+.styled-input::placeholder {
+    color: #aaa;
+    /* Màu placeholder */
+    font-style: italic;
+}
+
+/* Checkbox */
+.simple-checkbox {
+    appearance: none;
+    /* Loại bỏ checkbox mặc định */
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    /* Viền giống input */
+    border-radius: 5px;
+    /* Bo góc nhẹ */
+    background-color: #fff;
+    /* Nền trắng */
+    cursor: pointer;
+    /* Con trỏ trỏ tay */
+    transition: all 0.3s ease;
+    /* Hiệu ứng mượt */
+}
+
+/* Hiệu ứng hover */
+.simple-checkbox:hover {
+    border-color: #aaa;
+    /* Đổi màu viền khi hover */
+}
+
+/* Khi checkbox được tick */
+.simple-checkbox:checked {
+    background-color: #38eb7d;
+    /* Nền xanh */
+    border-color: #47e099;
+    /* Viền xanh */
+    position: relative;
+}
+
+/* Dấu check */
+.simple-checkbox:checked::after {
+    content: '';
+    /* Hiển thị dấu check */
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    /* Tạo dấu check */
+}
+
+.dieukhoan {
+    color: rgb(81, 163, 211);
+    text-decoration: none;
+}
+
+.signup {
+    padding: 10px 20px;
+    margin-top: 30px;
+    width: 90%;
+    background-color: #56b3fa;
+    /* Màu nền mặc định */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Hiệu ứng mượt */
+}
+
+/* Hover: Hiển thị gradient */
+.signup:hover {
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+    /* Gradient */
+    color: white;
+    /* Giữ màu chữ trắng */
+}
+
+#tencuathanh {
+    font-family: 'Great Vibes', cursive;
+    font-style: oblique;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+.dacotk {
+    margin-top: 50px;
+    text-align: center;
+    margin-right: 63px;
+}
+
+.dangnhap {
+    color: rgb(81, 163, 211);
+    text-decoration: none;
+}
+
+.google {
+    border-radius: 15px;
+    background-color: rgb(81, 163, 211);
+}
+
+.google:hover {
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+}
+
+.x {
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(81, 163, 211);
+}
+
+.x:hover {
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+}
+
+.facebook {
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: rgb(81, 163, 211);
+}
+
+.facebook:hover {
+    background-image: linear-gradient(to bottom, #56B3FA, #FF69B4);
+}
+
+.phuongthuclogin {
+    color: gray;
+}

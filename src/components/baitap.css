@@ -1,0 +1,28 @@
+.truyentranh {
+padding: 20px;
+}
+
+.title {
+font-weight: 2000;
+font-size: larger;
+}
+
+.newprice {
+    font-weight: 1200;
+    font-size: large;
+    color: red;
+}
+
+.oldprice {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.manga {
+    padding: 18px;
+}
+
+body {
+    background: linear-gradient(120deg, #84fab0, #8fd3f4);
+    background-size: cover;
+}
